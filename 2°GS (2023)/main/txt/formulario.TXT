@@ -1,0 +1,16 @@
+
+----------------- FORMULARIO - Léo -----------------
+DATA E HORA: 2023-11-18 21:19:26.886434
+NOME: Léo
+IDADE: 200 anos
+-------------------------------
+BATIMENTOS: 90 BPM
+FCM: 20 BPM
+-------------------------------
+PROBLEMAS DE PESSÃO: Sim, Hipertensão.
+PRESSÃO CONSIDERADA ALTA: 67 mmHg
+PRESSÃO CONSIDERADA IDEAL: 78 mmHg
+-------------------------------
+DISTÂNCIA PERCORRIDA: 51.05 metros
+VELOCIDADE ESTIMADA: 91.90m/s
+--------------------------------------------------

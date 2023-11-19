@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ad4f3ec278f65bdcfae1ddb0471f9c0b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ad4f3ec278f65bdcfae1ddb0471f9c0b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ad4f3ec278f65bdcfae1ddb0471f9c0b = L.map(
+                "map_ad4f3ec278f65bdcfae1ddb0471f9c0b",
+                {
+                    center: [-23.0063966, -44.316326],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_56078a256e5bc3f418115721b6eb3efc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_56078a256e5bc3f418115721b6eb3efc.addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+    
+            var marker_e6a9f60fd5a0fba122a302d7baa5fcad = L.marker(
+                [-23.0063966, -44.316326],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_1e5292c85ff68fadd74bb1fa09ba1d82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e6a9f60fd5a0fba122a302d7baa5fcad.setIcon(icon_1e5292c85ff68fadd74bb1fa09ba1d82);
+        
+    
+        var popup_f6b7c16b76cac5956de166d65c54282d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b36cd5a603227ca2e1d0580a43fe1dc = $(`<div id="html_3b36cd5a603227ca2e1d0580a43fe1dc" style="width: 100.0%; height: 100.0%;">Sua localização</div>`)[0];
+                popup_f6b7c16b76cac5956de166d65c54282d.setContent(html_3b36cd5a603227ca2e1d0580a43fe1dc);
+            
+        
+
+        marker_e6a9f60fd5a0fba122a302d7baa5fcad.bindPopup(popup_f6b7c16b76cac5956de166d65c54282d)
+        ;
+
+        
+    
+    
+            var marker_166dfa00af15cabca4f6d74ea5977e7d = L.marker(
+                [-23.0068065, -44.31374869999999],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_cc57095ebccfd0871b405eb38e47b1a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_166dfa00af15cabca4f6d74ea5977e7d.setIcon(icon_cc57095ebccfd0871b405eb38e47b1a4);
+        
+    
+        var popup_3b22fe63e4d62920ac76cc4726314956 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55038ccfaf88f12d18f58332354758c6 = $(`<div id="html_55038ccfaf88f12d18f58332354758c6" style="width: 100.0%; height: 100.0%;">Hospital e Maternidade Codrato de Vilhena</div>`)[0];
+                popup_3b22fe63e4d62920ac76cc4726314956.setContent(html_55038ccfaf88f12d18f58332354758c6);
+            
+        
+
+        marker_166dfa00af15cabca4f6d74ea5977e7d.bindPopup(popup_3b22fe63e4d62920ac76cc4726314956)
+        ;
+
+        
+    
+    
+            var marker_216635577055a4c620f6a737d23ff3df = L.marker(
+                [-23.0083613, -44.3179515],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_742b4ffa13a4bc9d0ad04f80facd4ed7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_216635577055a4c620f6a737d23ff3df.setIcon(icon_742b4ffa13a4bc9d0ad04f80facd4ed7);
+        
+    
+        var popup_f9e28490e5afd1ea12069252456bd1b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07f8320e48f8ddaab21d56d1cdafb62e = $(`<div id="html_07f8320e48f8ddaab21d56d1cdafb62e" style="width: 100.0%; height: 100.0%;">Clínica Odontológica Oliveira</div>`)[0];
+                popup_f9e28490e5afd1ea12069252456bd1b8.setContent(html_07f8320e48f8ddaab21d56d1cdafb62e);
+            
+        
+
+        marker_216635577055a4c620f6a737d23ff3df.bindPopup(popup_f9e28490e5afd1ea12069252456bd1b8)
+        ;
+
+        
+    
+    
+            var marker_b483913579da0b43e0df563edfb8131d = L.marker(
+                [-22.9772454, -44.3035457],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_a50416f4e7a923c3a07cbb89abea9d50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b483913579da0b43e0df563edfb8131d.setIcon(icon_a50416f4e7a923c3a07cbb89abea9d50);
+        
+    
+        var popup_cc8e7aeadd4797f4c432aa6f6b15cf5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_800a9c3d2ff78f8560b059386935fa15 = $(`<div id="html_800a9c3d2ff78f8560b059386935fa15" style="width: 100.0%; height: 100.0%;">CEM JAPUIBA</div>`)[0];
+                popup_cc8e7aeadd4797f4c432aa6f6b15cf5d.setContent(html_800a9c3d2ff78f8560b059386935fa15);
+            
+        
+
+        marker_b483913579da0b43e0df563edfb8131d.bindPopup(popup_cc8e7aeadd4797f4c432aa6f6b15cf5d)
+        ;
+
+        
+    
+    
+            var marker_699637d1a2719ca78403b11e947f6e27 = L.marker(
+                [-22.978147, -44.28983100000001],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_cc31dea260e8c357101d7fb79871901e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_699637d1a2719ca78403b11e947f6e27.setIcon(icon_cc31dea260e8c357101d7fb79871901e);
+        
+    
+        var popup_f03b8dd349272f269121eb81f4b559cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c1c7f88e69e5a12592550acb3347ef1 = $(`<div id="html_0c1c7f88e69e5a12592550acb3347ef1" style="width: 100.0%; height: 100.0%;">Unidade Basica de Saúde</div>`)[0];
+                popup_f03b8dd349272f269121eb81f4b559cf.setContent(html_0c1c7f88e69e5a12592550acb3347ef1);
+            
+        
+
+        marker_699637d1a2719ca78403b11e947f6e27.bindPopup(popup_f03b8dd349272f269121eb81f4b559cf)
+        ;
+
+        
+    
+    
+            var marker_bcebdb2ce3fcdcca99a7ed31dc051145 = L.marker(
+                [-22.9957825, -44.3036663],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_46771b43395bf7e7fb0b777e5c14b7ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bcebdb2ce3fcdcca99a7ed31dc051145.setIcon(icon_46771b43395bf7e7fb0b777e5c14b7ac);
+        
+    
+        var popup_6879c548bb3e21af9a2b3adf832bcc8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_636c30303bbf3b3ee84ca02f50b2cc9d = $(`<div id="html_636c30303bbf3b3ee84ca02f50b2cc9d" style="width: 100.0%; height: 100.0%;">Hospital Unimed Volta Redonda - Unidade Litoral</div>`)[0];
+                popup_6879c548bb3e21af9a2b3adf832bcc8f.setContent(html_636c30303bbf3b3ee84ca02f50b2cc9d);
+            
+        
+
+        marker_bcebdb2ce3fcdcca99a7ed31dc051145.bindPopup(popup_6879c548bb3e21af9a2b3adf832bcc8f)
+        ;
+
+        
+    
+    
+            var marker_50a9255ed0300ecd90b05ca75f43f150 = L.marker(
+                [-23.0069157, -44.31580599999999],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_2e6378f21eb875aaf3fadf2153c533ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_50a9255ed0300ecd90b05ca75f43f150.setIcon(icon_2e6378f21eb875aaf3fadf2153c533ed);
+        
+    
+        var popup_2d0293590cf19b99ea922e78f61c1721 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10d51f7aec8ab0661b3236cf585ea34b = $(`<div id="html_10d51f7aec8ab0661b3236cf585ea34b" style="width: 100.0%; height: 100.0%;">Centro de Especialidades Médicas (CEM Centro)</div>`)[0];
+                popup_2d0293590cf19b99ea922e78f61c1721.setContent(html_10d51f7aec8ab0661b3236cf585ea34b);
+            
+        
+
+        marker_50a9255ed0300ecd90b05ca75f43f150.bindPopup(popup_2d0293590cf19b99ea922e78f61c1721)
+        ;
+
+        
+    
+    
+            var marker_1d2765de6b8f07b0607f51c6b8767d75 = L.marker(
+                [-23.00714869999999, -44.3162701],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_97a94e46c91aa49a3c59bb24b25d9631 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d2765de6b8f07b0607f51c6b8767d75.setIcon(icon_97a94e46c91aa49a3c59bb24b25d9631);
+        
+    
+        var popup_c05149ff8af6a8848d38a9d1f8155483 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b288d75e88f6e796d37ba8240b9de35e = $(`<div id="html_b288d75e88f6e796d37ba8240b9de35e" style="width: 100.0%; height: 100.0%;">ESF MORRO DA CAIXA D'AGUA</div>`)[0];
+                popup_c05149ff8af6a8848d38a9d1f8155483.setContent(html_b288d75e88f6e796d37ba8240b9de35e);
+            
+        
+
+        marker_1d2765de6b8f07b0607f51c6b8767d75.bindPopup(popup_c05149ff8af6a8848d38a9d1f8155483)
+        ;
+
+        
+    
+    
+            var marker_4ae113e8a3031b77ed693e88f800e83f = L.marker(
+                [-23.0071833, -44.3162486],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_f36d64cd78efe386501216598a67e539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ae113e8a3031b77ed693e88f800e83f.setIcon(icon_f36d64cd78efe386501216598a67e539);
+        
+    
+        var popup_68dbeac6d7c5956796782233329b41ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d5f1c4ff2ece91209a41a7b5c557231 = $(`<div id="html_4d5f1c4ff2ece91209a41a7b5c557231" style="width: 100.0%; height: 100.0%;">CEM - Centro Especialidade Médicas</div>`)[0];
+                popup_68dbeac6d7c5956796782233329b41ae.setContent(html_4d5f1c4ff2ece91209a41a7b5c557231);
+            
+        
+
+        marker_4ae113e8a3031b77ed693e88f800e83f.bindPopup(popup_68dbeac6d7c5956796782233329b41ae)
+        ;
+
+        
+    
+    
+            var marker_9c8ae2e82de5e876476e9635b37b72ea = L.marker(
+                [-23.0078867, -44.3171648],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_8fb4c3a4b439f7724801935b7d35d3a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c8ae2e82de5e876476e9635b37b72ea.setIcon(icon_8fb4c3a4b439f7724801935b7d35d3a6);
+        
+    
+        var popup_98ff3cf9fcd2d39855731d6ec708d645 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddfba7ac7fd7c0ca14a7e765d1628399 = $(`<div id="html_ddfba7ac7fd7c0ca14a7e765d1628399" style="width: 100.0%; height: 100.0%;">Policlinica da Cidade</div>`)[0];
+                popup_98ff3cf9fcd2d39855731d6ec708d645.setContent(html_ddfba7ac7fd7c0ca14a7e765d1628399);
+            
+        
+
+        marker_9c8ae2e82de5e876476e9635b37b72ea.bindPopup(popup_98ff3cf9fcd2d39855731d6ec708d645)
+        ;
+
+        
+    
+    
+            var marker_268b167ef3b5c426bac6ca4d19642542 = L.marker(
+                [-23.0079527, -44.3184269],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_8c06ece70895dbb3bb20f81d12c70774 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_268b167ef3b5c426bac6ca4d19642542.setIcon(icon_8c06ece70895dbb3bb20f81d12c70774);
+        
+    
+        var popup_881852b46ca6f09f0375fa9871fe1c33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8683a5d311663ebfbf2b285950f38724 = $(`<div id="html_8683a5d311663ebfbf2b285950f38724" style="width: 100.0%; height: 100.0%;">Cardio Frequencia Angra</div>`)[0];
+                popup_881852b46ca6f09f0375fa9871fe1c33.setContent(html_8683a5d311663ebfbf2b285950f38724);
+            
+        
+
+        marker_268b167ef3b5c426bac6ca4d19642542.bindPopup(popup_881852b46ca6f09f0375fa9871fe1c33)
+        ;
+
+        
+    
+    
+            var marker_c6a75f7707627a564a4fe2fa7e554519 = L.marker(
+                [-23.0061732, -44.3191037],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_76b7f206682f8a84760b8599a381cf59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c6a75f7707627a564a4fe2fa7e554519.setIcon(icon_76b7f206682f8a84760b8599a381cf59);
+        
+    
+        var popup_994578f4639543069b5112a4ddc95e7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad830f258db686bcfbb1857d90dfd546 = $(`<div id="html_ad830f258db686bcfbb1857d90dfd546" style="width: 100.0%; height: 100.0%;">Dra. Larissa Villa Nova | Radiologia Intervencionista</div>`)[0];
+                popup_994578f4639543069b5112a4ddc95e7c.setContent(html_ad830f258db686bcfbb1857d90dfd546);
+            
+        
+
+        marker_c6a75f7707627a564a4fe2fa7e554519.bindPopup(popup_994578f4639543069b5112a4ddc95e7c)
+        ;
+
+        
+    
+    
+            var marker_d1fcfb8ac4740048999173cf7263acf7 = L.marker(
+                [-23.0069679, -44.3132982],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_28c53aff94ac486945bbf909898a8949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d1fcfb8ac4740048999173cf7263acf7.setIcon(icon_28c53aff94ac486945bbf909898a8949);
+        
+    
+        var popup_cb74978e301a71d73e7c9b18d66b0267 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_330bba6927cb19dfe90ca8eea9c89143 = $(`<div id="html_330bba6927cb19dfe90ca8eea9c89143" style="width: 100.0%; height: 100.0%;">Hospital Maternidade Angra dos Reis (HMAR)</div>`)[0];
+                popup_cb74978e301a71d73e7c9b18d66b0267.setContent(html_330bba6927cb19dfe90ca8eea9c89143);
+            
+        
+
+        marker_d1fcfb8ac4740048999173cf7263acf7.bindPopup(popup_cb74978e301a71d73e7c9b18d66b0267)
+        ;
+
+        
+    
+    
+            var marker_bdc6fa401fe1aca099dbe9c5f8ae09a1 = L.marker(
+                [-23.0072111, -44.319396],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_2e45dcabc6d09f83b2e3190f8d615bdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bdc6fa401fe1aca099dbe9c5f8ae09a1.setIcon(icon_2e45dcabc6d09f83b2e3190f8d615bdc);
+        
+    
+        var popup_3e317bd7417acc1a2ecfcbcf96982b2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f78fb431545e0ec55f139b7db10a69a = $(`<div id="html_0f78fb431545e0ec55f139b7db10a69a" style="width: 100.0%; height: 100.0%;">Imunemed Angra dos Reis</div>`)[0];
+                popup_3e317bd7417acc1a2ecfcbcf96982b2b.setContent(html_0f78fb431545e0ec55f139b7db10a69a);
+            
+        
+
+        marker_bdc6fa401fe1aca099dbe9c5f8ae09a1.bindPopup(popup_3e317bd7417acc1a2ecfcbcf96982b2b)
+        ;
+
+        
+    
+    
+            var marker_48e1a60b66d5bcd905f73f0dcd4373fb = L.marker(
+                [-23.00231669999999, -44.311242],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_ad0bfbe42243b89f124443c9741288f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_48e1a60b66d5bcd905f73f0dcd4373fb.setIcon(icon_ad0bfbe42243b89f124443c9741288f9);
+        
+    
+        var popup_61608e95797b0e7a0cef368ae8cfc1fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19d37d8b87732c51b1463186a25bc88b = $(`<div id="html_19d37d8b87732c51b1463186a25bc88b" style="width: 100.0%; height: 100.0%;">ESF MORRO DO PERES</div>`)[0];
+                popup_61608e95797b0e7a0cef368ae8cfc1fa.setContent(html_19d37d8b87732c51b1463186a25bc88b);
+            
+        
+
+        marker_48e1a60b66d5bcd905f73f0dcd4373fb.bindPopup(popup_61608e95797b0e7a0cef368ae8cfc1fa)
+        ;
+
+        
+    
+    
+            var marker_1b3fe3c85213225e6722389dedb73f1a = L.marker(
+                [-23.009552, -44.3224826],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_e6e2e16dbd3ee2a7b8d4bc963ae11648 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1b3fe3c85213225e6722389dedb73f1a.setIcon(icon_e6e2e16dbd3ee2a7b8d4bc963ae11648);
+        
+    
+        var popup_7099fa34b72fd9115d2c7892e9a41f2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f6165c89606d40231bd06d82d59bbff = $(`<div id="html_5f6165c89606d40231bd06d82d59bbff" style="width: 100.0%; height: 100.0%;">ESF MORRO SANTO ANTÔNIO</div>`)[0];
+                popup_7099fa34b72fd9115d2c7892e9a41f2f.setContent(html_5f6165c89606d40231bd06d82d59bbff);
+            
+        
+
+        marker_1b3fe3c85213225e6722389dedb73f1a.bindPopup(popup_7099fa34b72fd9115d2c7892e9a41f2f)
+        ;
+
+        
+    
+    
+            var marker_1735f14dc8f997d29329219120babd14 = L.marker(
+                [-23.0090373, -44.3232694],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_a9f9736bf1914cded194494535e70734 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1735f14dc8f997d29329219120babd14.setIcon(icon_a9f9736bf1914cded194494535e70734);
+        
+    
+        var popup_e6686015f6a919dd1500eb5fd41eb404 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_485b4e538234eb21bb96897ec867cc0f = $(`<div id="html_485b4e538234eb21bb96897ec867cc0f" style="width: 100.0%; height: 100.0%;">ESF MORRO DA CARIOCA</div>`)[0];
+                popup_e6686015f6a919dd1500eb5fd41eb404.setContent(html_485b4e538234eb21bb96897ec867cc0f);
+            
+        
+
+        marker_1735f14dc8f997d29329219120babd14.bindPopup(popup_e6686015f6a919dd1500eb5fd41eb404)
+        ;
+
+        
+    
+    
+            var marker_25840ff41095b5ad4ea6c116be593822 = L.marker(
+                [-22.9990874, -44.3121289],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_9e472af507b4caa1b64d6b6f28497832 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25840ff41095b5ad4ea6c116be593822.setIcon(icon_9e472af507b4caa1b64d6b6f28497832);
+        
+    
+        var popup_26731521c999fff8afd4f38afbadc462 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db88641962b4873748ccf74d55c6e7eb = $(`<div id="html_db88641962b4873748ccf74d55c6e7eb" style="width: 100.0%; height: 100.0%;">ESF MORRO DA GLÓRIA</div>`)[0];
+                popup_26731521c999fff8afd4f38afbadc462.setContent(html_db88641962b4873748ccf74d55c6e7eb);
+            
+        
+
+        marker_25840ff41095b5ad4ea6c116be593822.bindPopup(popup_26731521c999fff8afd4f38afbadc462)
+        ;
+
+        
+    
+    
+            var marker_cb633281ed57900d53bc63d6f1e6706e = L.marker(
+                [-22.9990874, -44.3121289],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_14a3a9383006677f30cd28cce949ce53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cb633281ed57900d53bc63d6f1e6706e.setIcon(icon_14a3a9383006677f30cd28cce949ce53);
+        
+    
+        var popup_6cd4f9cb07cea1c35edcf53ae9b546b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1601f3b2e7763045fa9585d7f9403d01 = $(`<div id="html_1601f3b2e7763045fa9585d7f9403d01" style="width: 100.0%; height: 100.0%;">ESF PRAIA DO ANIL</div>`)[0];
+                popup_6cd4f9cb07cea1c35edcf53ae9b546b9.setContent(html_1601f3b2e7763045fa9585d7f9403d01);
+            
+        
+
+        marker_cb633281ed57900d53bc63d6f1e6706e.bindPopup(popup_6cd4f9cb07cea1c35edcf53ae9b546b9)
+        ;
+
+        
+    
+    
+            var marker_dc59aa9385c88fe48e87bd4f1d3ed1a5 = L.marker(
+                [-22.9985637, -44.3113975],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_57b2b32ae3c405028a44ebb960ef61e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dc59aa9385c88fe48e87bd4f1d3ed1a5.setIcon(icon_57b2b32ae3c405028a44ebb960ef61e9);
+        
+    
+        var popup_954d74b11ce1d013cc4fce4ea004b012 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f9dda4787ac2a9e51dd8d6da632f6de = $(`<div id="html_1f9dda4787ac2a9e51dd8d6da632f6de" style="width: 100.0%; height: 100.0%;">ESF Morro do Peres e ESF Morro da Glória II</div>`)[0];
+                popup_954d74b11ce1d013cc4fce4ea004b012.setContent(html_1f9dda4787ac2a9e51dd8d6da632f6de);
+            
+        
+
+        marker_dc59aa9385c88fe48e87bd4f1d3ed1a5.bindPopup(popup_954d74b11ce1d013cc4fce4ea004b012)
+        ;
+
+        
+    
+    
+            var marker_7d1dc3ae5c3a43ebe90cc3634cff1a4e = L.marker(
+                [-22.9994038, -44.3049049],
+                {}
+            ).addTo(map_ad4f3ec278f65bdcfae1ddb0471f9c0b);
+        
+    
+            var icon_c75874034ef93872ff61f2d72de52bfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7d1dc3ae5c3a43ebe90cc3634cff1a4e.setIcon(icon_c75874034ef93872ff61f2d72de52bfe);
+        
+    
+        var popup_5dbe596e34b7ba98abefe4377513bc54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7bbd8e9b3d3f138feb19c44bda8ddd = $(`<div id="html_ab7bbd8e9b3d3f138feb19c44bda8ddd" style="width: 100.0%; height: 100.0%;">Estratégia de Saúde da Família do Balneario</div>`)[0];
+                popup_5dbe596e34b7ba98abefe4377513bc54.setContent(html_ab7bbd8e9b3d3f138feb19c44bda8ddd);
+            
+        
+
+        marker_7d1dc3ae5c3a43ebe90cc3634cff1a4e.bindPopup(popup_5dbe596e34b7ba98abefe4377513bc54)
+        ;
+
+        
+    
+</script>
+</html>
