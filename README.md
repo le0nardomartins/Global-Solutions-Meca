@@ -78,3 +78,7 @@ O sistema de alerta, acionado quando parâmetros críticos estão fora da faixa 
 
 **Código para simular batimentos cardíacos e temperatura corporal:**
 [Opp2 - Wokwi ESP32, STM32, Arduino Simulator](https://wokwi.com/projects/381115733791622145)
+<br>
+<br>
+
+# 1° GS - 2024 
