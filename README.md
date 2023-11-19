@@ -22,6 +22,23 @@ O sistema de alerta, acionado quando parâmetros críticos estão fora da faixa 
 ![dashboard_2](https://github.com/le0nardomartins/Global-Solutions-Meca/assets/98195508/6c9bd4af-254f-4cca-82af-b54fdc025fb4)
 <br>
 <p>Abaixo está o circuito elétrico para fins de demonstração da pulseira:</p>
+<p>Especificações do Hardware</p>
+<ul>
+<li>
+  <p>- Botão Verde: Alternar entre os modos 1, 2, 3 e 4 do código</p>
+  <li>
+    <p>Modo 1: Relógio (segundo o protocolo NTP)</p>
+    <br>
+    <p>Modo 2: Simula a ativação da camêra para identificar ferimentos</p>
+    <br>
+    <p>Modo 3: Exibe a temperatura corporal do usuário</p>
+    <br>
+    <p>Modo 4: Exibe os batimentos cardiácos do usuário</p>
+  </li>
+    
+</li>
+  
+</ul>
 <br>
 
 ![simulação pulseira](https://github.com/le0nardomartins/Global-Solutions-Meca/assets/98195508/c326f49d-a3df-457e-aa09-4303f5862465)
