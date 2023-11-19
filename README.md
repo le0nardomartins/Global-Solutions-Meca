@@ -58,8 +58,23 @@ O sistema de alerta, acionado quando parâmetros críticos estão fora da faixa 
 <br>
 
 ![simulação pulseira](https://github.com/le0nardomartins/Global-Solutions-Meca/assets/98195508/c326f49d-a3df-457e-aa09-4303f5862465)
+
 <br>
 <p>Abaixo está o processo de treinamento do modelo de demonstração utilizando o Teachable Machine da Google:</p>
 <br>
 
 ![Treinando a AI](https://github.com/le0nardomartins/Global-Solutions-Meca/assets/98195508/fbaff1bb-2e91-4579-9cad-f5a9f8bf9c6e)
+
+## Links dos projetos 
+
+**Dashboard – Blynk:**
+[Blynk.Console](https://blynk.cloud/dashboard/124086/global/filter/838741/organization/124086/devices/480543/dashboard)
+
+**BOT para diagnóstico facilitado:**
+[Pipper (telegram.org)](https://web.telegram.org/a/#6820946733)
+
+**BOT para monitoramento de batimentos e temperatura:**
+[Monitoramento Swift (telegram.org)](https://web.telegram.org/a/#6977331128)
+
+**Código para simular batimentos cardíacos e temperatura corporal:**
+[Opp2 - Wokwi ESP32, STM32, Arduino Simulator](https://wokwi.com/projects/381115733791622145)
