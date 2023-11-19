@@ -26,12 +26,15 @@ Neste repositório pretendo guardar todas as Global Solutions durante a faculdad
 <br>
 
 ## Desesenhos da Hidropônica
-
+[Global Solutions (2023) - CAD.pdf](https://github.com/le0nardomartins/Global-Solutions-Meca/files/13404530/Global.Solutions.2023.-.CAD.pdf)
+<br>
 
 ## Links dos projetos 
+**[Vídeo Pitch - Hidropônica](https://www.youtube.com/watch?v=skKprIFtSKE)**
+<br>
 
-**Circuito feito no Tinkercad**
-[Tinkercad](https://www.tinkercad.com/things/deKLxw0SsRG-global-solutions-2023-hidroponica)
+**Circuito feito no Tinkercad:**
+[Hidropônica Modular Autosustentável](https://www.tinkercad.com/things/deKLxw0SsRG-global-solutions-2023-hidroponica)
 <br>
 <br>
 
@@ -78,7 +81,7 @@ O sistema de alerta, acionado quando parâmetros críticos estão fora da faixa 
 
 ## Link das partes do projeto 
 
-**Dashboard – Blynk:**
+**Dashboard:**
 [Blynk.Console](https://blynk.cloud/dashboard/124086/global/filter/838741/organization/124086/devices/480543/dashboard)
 
 **BOT para diagnóstico facilitado:**
@@ -88,7 +91,7 @@ O sistema de alerta, acionado quando parâmetros críticos estão fora da faixa 
 [Monitoramento Swift (telegram.org)](https://web.telegram.org/a/#6977331128)
 
 **Código para simular batimentos cardíacos e temperatura corporal:**
-[Opp2 - Wokwi ESP32, STM32, Arduino Simulator](https://wokwi.com/projects/381115733791622145)
+[Pulseira GS 2023 - Wokwi ESP32-S2, Arduino Simulator](https://wokwi.com/projects/381115733791622145)
 <br>
 <br>
 
