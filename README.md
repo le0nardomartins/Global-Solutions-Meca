@@ -5,6 +5,24 @@ Neste repositório pretendo guardar todas as Global Solutions durante a faculdad
 
 # 1° GS - 2023 
 
+<p>No primeiro semestre de 2023, como solução da Global Solutions no curso de Engenharia Mecatrônica, desenvolvemos um sistema hidropônico autossuficiente e modular. Este sistema contava com um controle preciso das medições, incluindo temperatura, umidade, fluxo de água, quantidade de nutrientes e nível de luminosidade. Além disso, implementamos um sistema de poka-yoke preventivo, no qual, caso o usuário adicionasse, em excesso, os nutrientes, colocando as plantas em risco, a comporta de acesso ao tanque de água, na qual circularia pelo sistema e regaria as plantas, não se abriria.</p>
+
+<p>Todas essas variáveis foram cuidadosamente planejadas visando a otimização do cultivo hidropônico, com foco inicial na produção de alface, a hortaliça mais consumida pelos brasileiros. Para a placa micro controladora, utilizamos o arduino, enquanto na construção do protótipo empregamos PVC rígido para a base e o tanque de água, garantindo suporte ao peso, e PVC comum para as demais partes da hidropônica.</p>
+<p>O nosso protótipo proporcionou uma forma de agricultura caseira inteiramente sustentável, com um desperdício mínimo de água e um planejamento inteligente do espaço. Isso possibilitou que as alfaces atingissem um diâmetro de até 60 cm, otimizando o aproveitamento do espaço disponível.</p>
+
+<p>O nosso foco era disponibilizar o produto para residências com restrições de espaço, onde residiam pessoas com o desejo de adotar um estilo de vida saudável. Nesse sentido, desenvolvemos também um sistema modular, o qual permitia que os possuidores do produto o expandissem, caso houvesse espaço disponível na vertical. Esse sistema consistia na adição de módulos adicionais, que poderiam ser facilmente encaixados ao módulo já existente anexado à base, proporcionando uma solução simples, rápida e prática.</p>
+<br>
+<strong><p>Integrantes</p></strong>
+<ul>
+<li>Gabriel Tadashi Sawaguchi Cavanha</li>
+<li>Giulia de Barbon Henritzi</li>
+<li>Leonardo Martins Cunha</li>
+</ul>
+<br>
+<strong>Design do Circuito da Hidropônica</strong>
+<p>Circuito da hidropônica, na qual apresentamos à banca da Global Solutions, concebido para demonstração por meio da plataforma Tinkercad. Empregamos duas placas Arduino com a finalidade de exemplificar o protocolo de comunicação UART. Além disso, adotamos o protocolo I2C para simplificar a interconexão das duas placas com os displays LCD. A programação foi realizada exclusivamente em linguagem C++.</p>
+<br>
+<br>
 
 # 2° GS - 2023
 
