@@ -21,6 +21,17 @@ Neste repositório pretendo guardar todas as Global Solutions durante a faculdad
 <br>
 <strong>Design do Circuito da Hidropônica</strong>
 <p>Circuito da hidropônica, na qual apresentamos à banca da Global Solutions, concebido para demonstração por meio da plataforma Tinkercad. Empregamos duas placas Arduino com a finalidade de exemplificar o protocolo de comunicação UART. Além disso, adotamos o protocolo I2C para simplificar a interconexão das duas placas com os displays LCD. A programação foi realizada exclusivamente em linguagem C++.</p>
+
+![sadasdfas](https://github.com/le0nardomartins/Global-Solutions-Meca/assets/98195508/e4d779ad-7d84-491b-b2e6-2765e7754059)
+<br>
+
+## Desesenhos da Hidropônica
+
+
+## Links dos projetos 
+
+**Circuito feito no Tinkercad**
+[Tinkercad](https://www.tinkercad.com/things/deKLxw0SsRG-global-solutions-2023-hidroponica)
 <br>
 <br>
 
@@ -65,7 +76,7 @@ O sistema de alerta, acionado quando parâmetros críticos estão fora da faixa 
 
 ![Treinando a AI](https://github.com/le0nardomartins/Global-Solutions-Meca/assets/98195508/fbaff1bb-2e91-4579-9cad-f5a9f8bf9c6e)
 
-## Links dos projetos 
+## Link das partes do projeto 
 
 **Dashboard – Blynk:**
 [Blynk.Console](https://blynk.cloud/dashboard/124086/global/filter/838741/organization/124086/devices/480543/dashboard)
