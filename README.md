@@ -97,5 +97,3 @@ O sistema de alerta, acionado quando parâmetros críticos estão fora da faixa 
 [Pulseira GS 2023 - Wokwi ESP32-S2, Arduino Simulator](https://wokwi.com/projects/381115733791622145)
 <br>
 <br>
-
-# 1° GS - 2024 
