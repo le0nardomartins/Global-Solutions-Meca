@@ -100,13 +100,14 @@ O sistema de alerta, acionado quando parâmetros críticos estão fora da faixa 
 
 # 3° GS - 2024
 
-<p> Pensando nas dificuldades de monitoramento e na falta de acesso á saude de qualidade por grande parte da população, iniciamos o desenvolvimento de uma pulseira que atua como assistente de saúde pessoal, empregando visão computacional para detectar feridas e um sistema de monitoramento completo do usuário para acompanhar parâmetros vitais, como batimentos cardíacos e temperatura corporal e pressão. Nosso sistema integra comandos de voz e respostas por voz, proporcionando uma interface mais humana, amigável e empática para o usuário.
-Além disso, implementamos um sistema de alerta, que é ativado quando os parâmetros monitorados se encontram fora da faixa normal. A pressão arterial, que também é monitorada, é ajustável pelo usuário para atender tanto pacientes hipertensos quanto hipotensos. Ambos os alertas seriam emitidos por voz pela pulseira e, por meio do Node-Red, AWS e Telegram, o usuário receberia as notificações também no celular. <br> </p>
+<p> Idealizamos e desenvolvemos um submarino autônomo inovador. Este dispositivo seria capaz de analisar, registrar e auxiliar na prevenção e combate a doenças e à poluição marinha. 
+<br> </p>
 
-<p>Em um cenário em que a saúde preventiva e o monitoramento contínuo se tornam cada vez mais essenciais, a proposta do projeto oferece uma solução abrangente na telemedicina. Ao integrar tecnologias avançadas de detecção, monitoramento e interação; a pulseira não apenas proporciona cuidados personalizados, mas também fortalece a capacidade dos indivíduos de gerenciar ativamente sua saúde, contribuindo para uma abordagem mais proativa e eficiente no cuidado pessoal. </p>
+<p> Equipado com sensores avançados, ele poderia medir salinidade, pressão, níveis de oxigênio e pH do ambiente, além de capturar imagens de áreas onde desastres ambientais possam estar ocorrendo e realizar análises ambientais para prever possíveis problemas futuros na fauna e flora local.
+</p>
 
-<p>Abaixo estão as imagens dos nossos dashboards na plataforma Blynk, onde o usuário pode monitorar em tempo real os dados do corpo obtidos pela pulseira:</p>
-<br>
+<p> Os dados coletados seriam enviados para a nuvem, onde seriam processados e apresentados em um dashboard intuitivo, permitindo uma visualização clara e detalhada das informações obtidas, facilitando assim a tomada de decisões.
+</p> <br>
 
 ![Vídeo Apresentação]()
 <br>
