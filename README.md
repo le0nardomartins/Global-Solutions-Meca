@@ -109,6 +109,6 @@ O sistema de alerta, acionado quando parâmetros críticos estão fora da faixa 
 <p> Os dados coletados seriam enviados para a nuvem, onde seriam processados e apresentados em um dashboard intuitivo, permitindo uma visualização clara e detalhada das informações obtidas, facilitando assim a tomada de decisões.
 </p> <br>
 
-![Vídeo Pitch](https://www.youtube.com/watch?v=Z8BTwE5oJOQ)
+[Vídeo Pitch](https://www.youtube.com/watch?v=Z8BTwE5oJOQ)
 <br>
 <br>
